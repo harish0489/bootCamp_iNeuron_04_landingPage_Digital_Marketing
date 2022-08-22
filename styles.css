@@ -1,0 +1,125 @@
+/* Import Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,500;1,600;1,700&display=swap');
+
+/* Cleanup CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fdfeff;
+    margin-bottom: 5vh;
+
+}
+
+button {
+    all: unset;
+}
+
+
+/* Styles for Navbar */
+nav {
+    padding: 6vh 10vh;
+}
+
+.hero {
+    padding: 0vh 10vh;
+}
+
+.nav-logo {
+    width: 6vw;
+    height: auto;
+    margin-right: 2vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+}
+
+li,
+h1,
+p,
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    background-color: #5855b3;
+    color: #FFFFFF;
+}
+
+nav .list-items {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.list-item {
+    list-style-type: none;
+    padding: 0vh 2vh;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    padding: 16vh 0vh;
+}
+
+.list-item {
+    color: #c4c4c4;
+}
+
+.active {
+    color: #000000;
+}
+
+.contact {
+    padding: 0vh 4vh;
+    font-size: 14px;
+    border-radius: 14px;
+
+}
+
+h1,
+p {
+    margin: 2vh 0vh;
+}
+
+.services {
+    margin-top: 5vh;
+    padding: 2vh 5vh;
+    font-size: 14px;
+    border-radius: 14px;
+}
+
+
+h1 {
+    font-size: 44px;
+}
+
+.hero p {
+    color: #afafaf;
+    font-size: 14px;
+}
+
+span {
+    color: #5855b3;
+}
+
+.right {
+    display: flex;
+    flex: 2;
+}

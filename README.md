@@ -1,1 +1,1 @@
-# bootCamp_iNeuron_04_landingPage_Digital_Marketing
+# landingPage_DigitalMarketing
